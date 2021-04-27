@@ -1,4 +1,4 @@
-FROM elasticsearch:7.10.1
+FROM elasticsearch:7.12.0
 MAINTAINER MagedIn Technology <support@magedin.com>
 
 RUN /usr/share/elasticsearch/bin/elasticsearch-plugin install analysis-icu
